@@ -1,0 +1,62 @@
+html {background-color: #1d1d1d;}
+
+a,h1,h2, label {color: #80bd01}
+
+a:hover {opacity:  .75;}
+
+
+
+.logo{
+    display: block;
+    margin: 1rem auto;
+    width: 450 px;
+    height: 150px; 
+    background: url("../img/nodelogo.png") no-repeat center;
+    background-size: contain;
+}
+
+.error{
+    font-size: 2rem;
+    padding:  1rem;
+    background-color: #80bd01;
+    color: #ffffff;
+}
+
+.poster {max-width:  100px;}
+
+.table {width: 100%}
+.table td, .table th {padding: 1rem;}
+
+.table tr:first-child {
+    background-color: #292623;
+    color : #808D01;
+}
+
+.table tr:nth-child(even) {background-color: #CCC;}
+
+.table tr:nth-child(odd):not(:first-child) {background-color: #EEE; }
+
+.button {
+    padding: .5rem 1rem;
+    color: #ffffff;
+    background-color: #80bc01;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: .75;
+}
+
+.add{
+    background-color: #0B0;
+}
+
+.edit {
+    background-color: #0871B2;
+}
+
+.delete{
+    background-color: #D23641;
+} 
+
+
